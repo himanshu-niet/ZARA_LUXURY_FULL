@@ -1,5 +1,8 @@
 # dependencies
 /node_modules
+/Backend/node_modules
+/Frontend/node_modules
+/Admin/node_modules
 /node_modules/**
 /.pnp
 .pnp.js
