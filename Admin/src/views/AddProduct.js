@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { Formik, useFormik } from 'formik';
-import React, { useEffect, useState } from 'react'
-
+import React, { useEffect, useMemo, useState } from 'react'
+import 'react-quill/dist/quill.snow.css';
+import ReactQuill from 'react-quill'
 // react-bootstrap components
 import {
   Badge,
@@ -22,12 +23,15 @@ import { baseURL } from 'utils/useAxios';
 
 
 function AddProduct() {
+  const [desc, setDesc] = useState('');
+  const [detail, setDetail] = useState('');
+  const [mfg, setMfg] = useState('');
 
+  
   const categorySubcategoryMap = {
-    Mens: ["Shirts","T-Shirts", "Jackets", "Pants","Footwears"],
-    Womens: ["Tops", "Outwears", "Bottoms","Dresses","Footwears"],
-    Kids: ["Shirts","T-Shirts", "Jackets", "Pants","Footwears"],
-    Accessories: ["Mens Accessories", "Mens Wallets", "Womens Jewellery","Womens Handbags & Purses"],
+    Mens: ["Shirts","T-Shirts", "Jeans"],
+    Womens: ["Tops", "Jeans"],
+    Accessories: ["Mens Accessories","Womens Accessories"],
   };
 
   const [selectedCategory, setSelectedCategory] = useState("Mens");
@@ -76,6 +80,9 @@ function AddProduct() {
 
       formData.set("category",selectedCategory)
       formData.set("subCategory",selectedSubcategory)
+      formData.set("desc",desc)
+      formData.set("detail",detail)
+      formData.set("mfg",mfg)
 
       images.forEach((image) => {
         formData.append("images", image);
@@ -228,16 +235,8 @@ function AddProduct() {
                     <Col md="12">
                       <Form.Group>
                         <label style={{ fontWeight: 'bold' }}>Description</label>
-                        <Form.Control
-                          cols="80"
-                          required
-                          name="desc"
-                          onChange={formik.handleChange}
-                          value={formik.values.desc}
-                          placeholder="Product Description"
-                          rows="4"
-                          as="textarea"
-                        ></Form.Control>
+                        <ReactQuill theme="snow" value={desc} onChange={setDesc} />
+
                       </Form.Group>
                     </Col>
                   </Row>
@@ -245,16 +244,8 @@ function AddProduct() {
                     <Col md="12">
                       <Form.Group>
                         <label style={{ fontWeight: 'bold' }}>Detail</label>
-                        <Form.Control
-                          cols="80"
-                          required
-                          name="detail"
-                          onChange={formik.handleChange}
-                          value={formik.values.detail}
-                          placeholder="Detail"
-                          rows="4"
-                          as="textarea"
-                        ></Form.Control>
+                        <ReactQuill theme="snow" value={detail} onChange={setDetail} />
+
                       </Form.Group>
                     </Col>
                   </Row>
@@ -262,16 +253,8 @@ function AddProduct() {
                     <Col md="12">
                       <Form.Group>
                         <label style={{ fontWeight: 'bold' }}>Manufacturer</label>
-                        <Form.Control
-                          cols="80"
-                          required
-                          name="mfg"
-                          onChange={formik.handleChange}
-                          value={formik.values.mfg}
-                          placeholder="Manufacturer"
-                          rows="4"
-                          as="textarea"
-                        ></Form.Control>
+                        <ReactQuill theme="snow" value={mfg} onChange={setMfg} />
+
                       </Form.Group>
                     </Col>
                   </Row>

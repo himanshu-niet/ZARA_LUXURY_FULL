@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-
-
- export const baseURL='http://localhost:5001';
+export const baseURL='https://zaraluxury.com';
 axios.defaults.baseURL = baseURL;
 
 /**
