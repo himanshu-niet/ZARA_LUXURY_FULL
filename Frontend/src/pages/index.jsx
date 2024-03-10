@@ -32,14 +32,13 @@ const Index = () => {
               <div className="media block-6 services p-4 py-md-5">
                 <div className="icon d-flex justify-content-center align-items-center mb-4">
                   <div>
-                  <img style={{height:'80px'}} src='/images/clothes.png'/>
+                  <img style={{height:'80px'}} src='/img/lock.png'/>
                   </div>
                 </div>
                 <div className="media-body">
-                  <h3 className="heading">Fashion for All Seasons</h3>
+                  <h3 className="heading">Lock Which Makes Life Simpler</h3>
                   <p>
-                  From summer to winter, discover year-round style in our seasonal selections. Stay ahead in the fashion game with our versatile collections.
-                  </p>
+                  Enjoy total convenience and unmatched simplicity with the innovative locks from Zara Luxury. </p>
                 </div>
               </div>
             </div>
@@ -47,14 +46,13 @@ const Index = () => {
               <div className="media block-6 services p-4 py-md-5">
                 <div className="icon d-flex justify-content-center align-items-center mb-4">
                 <div>
-                <img style={{height:'80px'}} src='/images/accessory.png'/>
+                <img style={{height:'80px'}} src='/img/key.png'/>
+
                 </div>
                 </div>
                 <div className="media-body">
-                  <h3 className="heading">Style Inspiration </h3>
-                  <p>
-                  Unlock style inspiration through our fashion blog and lookbook. Get the latest trends, outfit ideas, and fashion tips to craft your unique fashion statement.
-                  </p>
+                  <h3 className="heading">Lakhs of Key Combination</h3>
+                  <p>Explore vast key combination options for tailored security, ensuring personalized protection for your space with our wide selection. </p>
                 </div>
               </div>
             </div>
@@ -62,14 +60,13 @@ const Index = () => {
               <div className="media block-6 services p-4 py-md-5">
                 <div className="icon d-flex justify-content-center align-items-center mb-4">
                 <div>
-                <img style={{height:'80px'}} src='/images/slim-fit.png'/>
+                <img style={{height:'80px'}} src='/img/blacksmith.png'/>
                 </div>
                 </div>
                 <div className="media-body">
-                  <h3 className="heading">Size and Fit Assistance</h3>
+                  <h3 className="heading">Crafted with toughest materials</h3>
                   <p>
-                  Cultivate confidence in your style with our size guides and personalized fit support. Shop assured that your selections will be the perfect fit.
-                  </p>
+                  Engineered with unparalleled durability, our locks are designed to withstand the test of time. </p>
                 </div>
               </div>
             </div>
@@ -89,12 +86,12 @@ const Index = () => {
               >
                 <div className="text text-center text-white px-2">
 
-                  <h2>Men's Collection</h2>
+                  <h2>Smart Locks</h2>
                   <p>
-                  Redefine your look with our versatile Men's Collection.
+                  Offering keyless convenience and remote access for a seamless and secure entry experience.
                   </p>
                   <p>
-                    <Link to={"/products?category=mens"} className="btn btn-black px-3 py-2">
+                    <Link to={"/products?category=Smart Locks"} className="btn btn-black px-3 py-2">
                       Shop now
                     </Link>
                   </p>
@@ -111,12 +108,12 @@ const Index = () => {
                     <div className="col-md-7 d-flex align-items-center">
                       <div className="text text-white px-5">
 
-                        <h2>Women's Collection</h2>
+                        <h2>Hinges & Knobs</h2>
                         <p>
-                        Discover chic and timeless fashion in our Women's Collection.
+                        Enhance your doors with our premium Hinges & Knobs
                         </p>
                         <p>
-                          <Link to={"/products?category=womens"} className="btn btn-black px-3 py-2">
+                          <Link to={"/products?category=Hinges & Knobs"} className="btn btn-black px-3 py-2">
                             Shop now
                           </Link>
                         </p>
@@ -132,7 +129,7 @@ const Index = () => {
                           <span className="subheading">Unbeatable Deals Await</span>
                           <h2>Up To 50% Off</h2>
                           <p>
-                          Grab up to 50% off on your favorite fashion finds!
+                          Snag up to 50% off on your top lock selections!
                           </p>
                           <p>
                             <Link to={"/products"} className="btn btn-black px-3 py-2">
@@ -149,12 +146,12 @@ const Index = () => {
                       >
                         <div className="text text-center text-white px-5">
                           <span className="subheading"></span>
-                          <h2>Trend Setters</h2>
+                          <h2>Door Accessories</h2>
                           <p>
-                          Discover what's trending with our best sellers.
+                          The perfect finishing touch for your entryway's functionality and aesthetics.
                           </p>
                           <p>
-                            <Link to={"/products"} className="btn btn-black px-3 py-2">
+                            <Link to={"/products?category=Door Accessories"} className="btn btn-black px-3 py-2">
                               Shop now
                             </Link>
                           </p>
@@ -178,35 +175,35 @@ const Index = () => {
               <div className="services-flow">
                 <div className="services-2 p-4 d-flex ">
                   <div className="icon">
-                    <span className="flaticon-bag" />
+                    <img src='img/screwdriver.png' style={{height:'70px'}}/>
                   </div>
                   <div className="text">
-                    <h3>Expedited Shipping</h3>
+                    <h3>How-To & Installation</h3>
                     <p className="mb-0">
-                    Fast-track your fashion game with Expedited Shipping, Style on your doorstep, pronto.
-                    </p>
+                    Leverage the expertise of our seasoned professionals for guidance and support.</p>
                   </div>
                 </div>
                 <div className="services-2 p-4 d-flex ">
                   <div className="icon">
-                    <span className="flaticon-heart-box" />
+                 
+                  <img src='img/warranty.png' style={{height:'80px'}}/>
+
                   </div>
                   <div className="text">
-                    <h3>Gift Pack</h3>
+                    <h3>Guaranteed Warranty</h3>
                     <p className="mb-0">
-                    Make gifting effortless with our elegant gift packs; we offer discreet gift delivery for that extra touch of thoughtfulness.
-                    </p>
+                    Enjoy peace of mind with our assured warranty coverage on every purchase.</p>
                   </div>
                 </div>
                 <div className="services-2 p-4 d-flex ">
                   <div className="icon">
-                    <span className="flaticon-payment-security" />
+                  <img src='img/warranty.png' style={{height:'80px'}}/>
+
                   </div>
                   <div className="text">
-                    <h3>Shop Securely</h3>
+                    <h3>Understand your requirements for locks.</h3>
                     <p className="mb-0">
-                     Rest assured, our secure payment system ensures that your transactions are protected every time you shop with us.
-                    </p>
+                    We are Here Around the Clock to Assist With All Your Security Concerns.</p>
                   </div>
                 </div>
                 <div className="services-2 p-4 d-flex ">
@@ -224,10 +221,9 @@ const Index = () => {
             </div>
             <div className="col-lg-7">
               <div className="heading-section  mb-5">
-                <h2 className="mb-4">Pleased Shopper's Thoughts</h2>
+                <h2 className="mb-4">Feedback from Our Valued Selling Partners</h2>
                 <p>
-                Feedback fuels our commitment to quality and keeps our fashion community thriving – leave your review today.
-                </p>
+                Feedback powers our dedication to excellence and supports our security community </p>
               </div>
               <div className="carousel-testimony">
 
@@ -249,7 +245,7 @@ const Index = () => {
                     <div className="testimony-wrap">
                       <div
                         className="user-img mb-4"
-                        style={{ backgroundImage: "url(images/person_1.jpg)" }}
+                        style={{ backgroundImage: "url(img/1.jpeg)" }}
                       >
                         <span className="quote d-flex align-items-center justify-content-center">
                           <i className="icon-quote-left" />
@@ -257,19 +253,18 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <p className="mb-4 pl-4">
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the blind
-                          texts.
+                        The quality and reliability of these locks are unmatched. After incorporating them into our inventory, customer satisfaction has noticeably increased. Truly a game-changer in the security products market.
                         </p>
-                        <p className="name">Bazla Khan</p>
+                        <p className="name">Rajesh Kumar</p>
                       </div>
                     </div>
                   </div></SwiperSlide>
+
                   <SwiperSlide> <div className="item">
                     <div className="testimony-wrap">
                       <div
                         className="user-img mb-4"
-                        style={{ backgroundImage: "url(images/person_2.jpg)" }}
+                        style={{ backgroundImage: "url(img/2.jpeg)" }}
                       >
                         <span className="quote d-flex align-items-center justify-content-center">
                           <i className="icon-quote-left" />
@@ -277,14 +272,70 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <p className="mb-4 pl-4 ">
-                          Far far away, behind the word mountains, far from the
-                          countries Vokalia and Consonantia, there live the blind
-                          texts.
+                        We've been partners for over a year now, and I must say, the innovation and durability in these locks are exceptional. Our clients appreciate the advanced security features, making it a top choice for us to recommend.
                         </p>
-                        <p className="name">Suhail Malik</p>
+                        <p className="name">Ahmad Mirza</p>
                       </div>
                     </div>
                   </div></SwiperSlide>
+
+                  <SwiperSlide> <div className="item">
+                    <div className="testimony-wrap">
+                      <div
+                        className="user-img mb-4"
+                        style={{ backgroundImage: "url(img/3.jpeg)" }}
+                      >
+                        <span className="quote d-flex align-items-center justify-content-center">
+                          <i className="icon-quote-left" />
+                        </span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4 pl-4 ">
+                        From smart locks to traditional designs, the range and quality offered have greatly enhanced our product lineup. Our customers trust the brand, and the positive feedback has been overwhelming. Excellent support from the team as well!
+                        </p>
+                        <p className="name">Vijay Patil</p>
+                      </div>
+                    </div>
+                  </div></SwiperSlide>
+
+                  <SwiperSlide> <div className="item">
+                    <div className="testimony-wrap">
+                      <div
+                        className="user-img mb-4"
+                        style={{ backgroundImage: "url(img/4.jpeg)" }}
+                      >
+                        <span className="quote d-flex align-items-center justify-content-center">
+                          <i className="icon-quote-left" />
+                        </span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4 pl-4 ">
+                        These locks have set a new standard in the market. The detailed craftsmanship and robust security features have made them a favorite among our customers. It's a pleasure to be a distributor of such a reputable brand.
+                        </p>
+                        <p className="name">Suresh Gupta</p>
+                      </div>
+                    </div>
+                  </div></SwiperSlide>
+
+                  <SwiperSlide> <div className="item">
+                    <div className="testimony-wrap">
+                      <div
+                        className="user-img mb-4"
+                        style={{ backgroundImage: "url(img/5.jpeg)" }}
+                      >
+                        <span className="quote d-flex align-items-center justify-content-center">
+                          <i className="icon-quote-left" />
+                        </span>
+                      </div>
+                      <div className="text">
+                        <p className="mb-4 pl-4 ">
+                        The diversity and technological advancement in these locks are impressive. It's been a pleasure to introduce them to our market. The feedback from our customers is consistently positive, appreciating the blend of tradition and innovation.
+                        </p>
+                        <p className="name">Faisal Khan</p>
+                      </div>
+                    </div>
+                  </div></SwiperSlide>
+
                 </Swiper>
               </div>
             </div>
@@ -297,7 +348,7 @@ const Index = () => {
             <div className="col-md-8 heading-section text-center mb-4 ">
               <h2 className="mb-4">Follow Us On Instagram</h2>
               <p>
-              Stay fashion-forward with us on Instagram for daily style inspiration and exclusive updates.
+              Stay secure with us on Instagram for daily lock solutions, security tips, and exclusive updates.
               </p>
             </div>
           </div>

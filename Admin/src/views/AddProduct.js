@@ -29,13 +29,22 @@ function AddProduct() {
 
   
   const categorySubcategoryMap = {
-    Mens: ["Shirts","T-Shirts", "Jeans"],
-    Womens: ["Tops", "Jeans"],
-    Accessories: ["Mens Accessories","Womens Accessories"],
+    "Pad Locks": ["Pad Locks"],
+    "Cylinder Locks": ["Cylinder Locks"],
+    "Smart Locks": ["Smart Locks"],
+    "Rim Locks": ["Rim Locks"],
+    "Mortice Handles": ["Mortice Handles"],
+    "Disc Locks": ["Disc Locks"],
+    "Furniture Locks": ["Furniture Locks"],
+    "Shutter Locks": ["Shutter Locks"],
+    "Hinges & Knobs": ["Hinges & Knobs"],
+    "Door Accessories": ["Door Accessories"],
+
+   
   };
 
-  const [selectedCategory, setSelectedCategory] = useState("Mens");
-  const [selectedSubcategory, setSelectedSubcategory] = useState(categorySubcategoryMap.Mens[0]);
+  const [selectedCategory, setSelectedCategory] = useState("Pad Locks");
+const [selectedSubcategory, setSelectedSubcategory] = useState(categorySubcategoryMap[selectedCategory][0]);
 
 
   const [images, setImages] = useState([]);

@@ -29,19 +29,21 @@ const About = () => {
         <div className="col-md-7 py-md-5 wrap-about pb-md-5 ">
           <div className="heading-section-bold mb-4 mt-md-5">
             <div className="ml-md-0">
-              <h2 className="mb-4">Stablished Sinced 1975</h2>
+              <h2 className="mb-4">Safeguarding Since 2015</h2>
             </div>
           </div>
           <div className="pb-md-5 pb-4">
             <p>
-              But nothing the copy said could convince her and so it didn’t take
-              long until a few insidious Copy Writers ambushed her, made her
-              drunk with Longe and Parole and dragged her into their agency,
-              where they abused her for their.
+            Founded in 2015, our company has rapidly become a beacon of innovation and reliability in the lock industry. With a steadfast commitment to security and quality, we have dedicated ourselves to crafting locks that not only meet but exceed the expectations of modern safety standards. Our journey began with a simple vision: to provide unparalleled security solutions that homeowners and businesses can trust. Over the years, we have expanded our product line to include a wide range of locking mechanisms, from traditional designs to cutting-edge smart locks, ensuring that we offer something for every need.
             </p>
             <p>
-              But nothing the copy said could convince her and so it didn’t take
-              long until a few insidious Copy Writers ambushed her.
+            Our team, composed of seasoned engineers, designers, and security experts, works tirelessly to push the boundaries of what's possible in lock technology. We pride ourselves on our attention to detail, innovation, and the ability to offer personalized solutions that address the unique security challenges of our clients.
+            </p>
+            <p>
+            As a company, we believe in the power of strong community ties and the importance of listening to our customers. Their feedback has been instrumental in our growth and continues to shape the way we evolve our products and services. Looking ahead, we are excited about the future of security and are committed to staying at the forefront of the industry, providing our customers with the peace of mind they deserve.
+            <br/>
+            <b>Thank you for choosing us as your partner in security. Together, we are creating safer spaces for everyone.</b>
+           
             </p>
             <p>
               <Link to={"/products"} className="btn btn-primary">
@@ -109,14 +111,7 @@ const About = () => {
         <div className="p-4">
           
           <p>
-            On her way she met a copy. The copy warned the Little Blind Text,
-            that where it came from it would have been rewritten a thousand
-            times and everything that was left from its origin would be the word
-            "and" and the Little Blind Text should turn around and return to its
-            own, safe country. But nothing the copy said could convince her and
-            so it didn’t take long until a few insidious Copy Writers ambushed
-            her, made her drunk with Longe and Parole and dragged her into their
-            agency, where they abused her for their.
+          Our mission is to enhance the safety and security of homes and businesses worldwide. We aim to achieve this by developing cutting-edge locking mechanisms that offer superior protection without compromising on ease of use. At Zara Luxury Locks, we believe that everyone deserves to feel safe and secure, and we are committed to making that a reality through our products and services.
           </p>
         </div>
       </div>
@@ -129,14 +124,7 @@ const About = () => {
         <div className="p-4">
          
           <p>
-            On her way she met a copy. The copy warned the Little Blind Text,
-            that where it came from it would have been rewritten a thousand
-            times and everything that was left from its origin would be the word
-            "and" and the Little Blind Text should turn around and return to its
-            own, safe country. But nothing the copy said could convince her and
-            so it didn’t take long until a few insidious Copy Writers ambushed
-            her, made her drunk with Longe and Parole and dragged her into their
-            agency, where they abused her for their.
+          Our vision is to redefine the standards of security in the digital age. We aspire to be at the forefront of the lock and security industry by being innovators and pioneers in smart lock technology. Our goal is to create a safer, more connected world where access and security go hand in hand, empowering individuals and communities to protect what matters most to them.
           </p>
         </div>
       </div>
@@ -149,14 +137,7 @@ const About = () => {
       <div className="p-4 ">
          
       <p>
-        On her way she met a copy. The copy warned the Little Blind Text,
-        that where it came from it would have been rewritten a thousand
-        times and everything that was left from its origin would be the word
-        "and" and the Little Blind Text should turn around and return to its
-        own, safe country. But nothing the copy said could convince her and
-        so it didn’t take long until a few insidious Copy Writers ambushed
-        her, made her drunk with Longe and Parole and dragged her into their
-        agency, where they abused her for their.
+      Our values center on innovation, quality, customer focus, integrity, and sustainability. We're dedicated to leading in security technology through continuous improvement, crafting locks of the highest reliability and durability. Our commitment to our customers drives us to exceed their expectations, conducting our business with integrity and respect for all. Moreover, we uphold sustainable practices to ensure our impact on the planet is positive.
       </p>
     </div>
       </div>

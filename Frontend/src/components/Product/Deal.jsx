@@ -35,8 +35,8 @@ const Deal = () => {
                   </div>
                   <div className="col-md-6">
                       <div className="heading-section heading-section-white">
-                          <span className="subheading">Deal of the month</span>
-                          <h2 className="mb-3">Deal of the month</h2>
+                          <span className="subheading">Never Before</span>
+                          <h2 className="mb-3">On-The-Spot Deal</h2>
                       </div>
                     
                       <div className="text-deal">
@@ -71,8 +71,8 @@ const Deal = () => {
                   </div>
                   <div className="col-md-6">
                       <div className="heading-section heading-section-white">
-                          <span className="subheading">Deal of the Year</span>
-                          <h2 className="mb-3">Deal of the Year</h2>
+                          <span className="subheading">Safest</span>
+                          <h2 className="mb-3">Grab-It Deal</h2>
                       </div>
                     
                       <div className="text-deal">

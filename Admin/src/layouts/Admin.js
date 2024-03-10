@@ -20,11 +20,11 @@ function Admin() {
 
   const cookie=getCookie("token");
  
-  if(!cookie){
-   window.location.href="/";
-    return <Loader/>
+  // if(!cookie){
+  //  window.location.href="/";
+  //   return <Loader/>
   
-  }
+  // }
 
 
   const location = useLocation();

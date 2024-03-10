@@ -39,9 +39,9 @@ const HomeProduct = () => {
       <div className="container">
         <div className="row justify-content-center mb-3 pb-3">
           <div className="col-md-12 heading-section text-center ">
-            <h2 className="mb-4">Fresh Drops</h2>
+            <h2 className="mb-4">New to the store</h2>
             <p>
-            Fresh arrivals for the fashion-forward you, explore what's new now.
+            Unlock the latest in security and style: Browse our newest locks today.
             </p>
           </div>
         </div>

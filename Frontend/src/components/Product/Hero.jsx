@@ -20,7 +20,7 @@ const Hero = () => {
                   spaceBetween={30}
                   centeredSlides={true}
                   autoplay={{
-                    delay: 2500,
+                    delay: 4500,
                     disableOnInteraction: false,
                   }}
                   pagination={{
@@ -48,14 +48,14 @@ const Hero = () => {
               data-scrollax=" properties: { translateY: '70%' }"
             >
               <div className="text">
-                <span className="subheading">#New Arrival</span>
+                <span className="subheading">#New</span>
                 <div className="horizontal">
-                  <h1 className="mb-4 mt-3">Women's Collection </h1>
+                  <h1 className=" mt-3">Launching <b>new styles</b>—shaped by your personal flair.</h1>
                   <p className="mb-4">
-                  Elevate your wardrobe with our chic women's collection, where style meets versatility. Explore fashion that empowers you to shine, no matter the occasion.
+                  Our latest collections, ranging from Maximalist to Minimalist, are thoughtfully created to match your distinct style.
                   </p>
                   <p>
-                    <Link to={"/products?category=womens"} className="btn-custom">
+                    <Link to={"/products"} className="btn-custom">
                       Discover Now
                     </Link>
                   </p>
@@ -84,12 +84,12 @@ const Hero = () => {
                       data-scrollax=" properties: { translateY: '70%' }"
                     >
                       <div className="text">
-                        <span className="subheading">#New Arrival</span>
+                <span className="subheading">#Best</span>
+
                         <div className="horizontal">
-                          <h1 className="mb-4 mt-3">Men's Collection</h1>
+                          <h1 className="mb-4 mt-3">What's the <b>best lock</b>  for your home?</h1>
                           <p className="mb-4">
-                          Discover timeless elegance with our sophisticated men's collection. Elevate your style with curated fashion for every occasion.
-                          </p>
+                          Simplifying tough choices. Utilize our specialist help to discover the ideal match for you. </p>
                           <p>
                           <Link to={"/products?category=mens"}  className="btn-custom">
                               Discover Now

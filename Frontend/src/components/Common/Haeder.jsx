@@ -36,7 +36,7 @@ const Haeder = () => {
                 </div>
                 <div className="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
                   <span className="text">
-                  Swift Delivery and Hassle-Free Returns
+                  Rapid Shipping on Bulk Orders
                   </span>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Haeder = () => {
       >
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Zara Luxury Fashion
+            Zara Luxury Locks
           </Link >
           <button
             className="navbar-toggler"
@@ -85,9 +85,18 @@ const Haeder = () => {
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Category</a>
                 <div className="dropdown-menu" aria-labelledby="dropdown04">
-                  <a className="dropdown-item" href={"/products?category=mens"}>Mens</a>
-                  <a className="dropdown-item" href={"/products?category=womens"}>Womens</a>
-                  <a className="dropdown-item" href={"/products?category=accessories"}>Accessories</a>
+                <a className="dropdown-item" href={"/products?category=Pad Locks"}>Pad Locks</a>
+                <a className="dropdown-item" href={"/products?category=Cylinder Locks"}>Cylinder Locks</a>
+                <a className="dropdown-item" href={"/products?category=Smart Locks"}>Smart Locks</a>
+                <a className="dropdown-item" href={"/products?category=Rim Locks"}>Rim Locks</a>
+                <a className="dropdown-item" href={"/products?category=Mortice Handles"}>Mortice Handles</a>
+                <a className="dropdown-item" href={"/products?category=Disc Locks"}>Disc Locks</a>
+                <a className="dropdown-item" href={"/products?category=Furniture Locks"}>Furniture Locks</a>
+                <a className="dropdown-item" href={"/products?category=Shutter Locks"}>Shutter Locks</a>
+                <a className="dropdown-item" href={"/products?category=Hinges & Knobs"}>Hinges & Knobs</a>
+                <a className="dropdown-item" href={"/products?category=Door Accessories"}>Door Accessories</a>
+
+              
                 </div>
               </li>
               

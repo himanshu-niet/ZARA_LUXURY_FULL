@@ -10510,10 +10510,10 @@ textarea.form-control {
   color: #333333; }
 
 .panel-body {
-  padding: 5px; }
+  }
   .panel-body ul {
     margin: 0;
-    padding: 0 0 0 20px; }
+    }
     .panel-body ul li {
       font-size: 12px; }
       .panel-body ul li a {
